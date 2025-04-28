@@ -16,6 +16,26 @@ no_op__:
 brew:
 	brew bundle
 
+editorconfig:
+	cp .editorconfig ${HOME}/.editorconfig
+
+jenv:
+	echo # eval "$(jenv init -)"
+	jenv enable-plugin export
+
+pyenv:
+	echo # which pyenv > /dev/null \
+		 # if [ $? -ne 0 ]; then \
+		 #   eval "$(pyenv init -)" \
+		 # fi
+
+nenv:
+	echo # which nenv > /dev/null \
+		 # if [ $? -ne 0 ]; then \
+		 #   export PATH="$HOME/.nenv/bin:$PATH"
+		 #   eval "$(nenv init -)" \
+		 # fi
+
 __cleanup:
 	brew bundle cleanup
 

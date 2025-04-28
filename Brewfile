@@ -1,12 +1,14 @@
 # Standard Homebrew packages
 brew "ansible"
 brew "awscli"
-brew "docker-compose"
 brew "docker-credential-helper-ecr"
 brew "jenv"
 brew "mas"
 brew "mosh"
+brew "pipenv"
 brew "pyenv"
+brew "rbenv"
+brew "wget"
 
 # Caskroom packages
 cask "1password"
