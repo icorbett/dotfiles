@@ -64,3 +64,5 @@ download_and_verify https://download-installer.cdn.mozilla.net/pub/firefox/relea
 download_and_verify https://github.com/Homebrew/brew/releases/download/4.3.6/Homebrew-4.3.6.pkg db80075d62a3847970af6089445081323fb70e7c70f01e480ed92e818489fad8
 download_and_verify https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.3.2.31487-arm64.dmg 51ea1be65b671f1ae99024230a4feb9c3245d0910dd27d2a3e9d5f59d0a99c7f
 download_and_verify https://install.determinate.systems/nix-installer-pkg/stable/Universal ccd7a9ec4683bcdbc6ed16803695ae51ed14268474b80a3d234e8a1e72ec61e1
+download_and_verify https://downloads.strongdm.com/builds/desktop/21.73.0/darwin-universal-installer/404A63F374E92EDAAECA2BB82DDC6F9CEB606240/SDM-21.73.0.universal.pkg C22EE41BF53530230D8E166790FD1522F43BD94A8CFF73AB3DE91A44A723428C
+download_and_verify https://downloads.strongdm.com/builds/desktop/21.73.0/darwin-universal-full/BED889F06FDA5772A088360587DB178290C74A07/SDM-21.73.0.dmg 1C86E39E4765DA06E3480D2B4AADF91961667299A7B230FB047D32005A90D7EC
